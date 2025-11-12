@@ -12,15 +12,17 @@ Your task is to build a **"Team Directory"** feature that displays a **paginated
 
 ## Repository Setup
 
-1. **Fork or clone this repository** to your own GitHub account.  
-2. Implement the assessment in your fork/clone.  
+1. **Fork this repository** to your own GitHub account.  
+2. Implement the assessment in your fork.  
 3. Ensure the project is **fully runnable** with either `npm` or `yarn`.  
 4. Deliver a **GitHub repository** containing your completed work, including:
    - All implemented code
    - Updated README if necessary
    - Clear instructions to run the project  
 
-> The deliverable should be a repository that can be cloned and run locally without additional setup.
+> The deliverable should be a **URL of your forked repository** that can be cloned and run locally without additional setup.
+
+**Do NOT clone this repository directly for submission.**  
 
 ---
 
