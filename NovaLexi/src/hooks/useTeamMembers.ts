@@ -12,7 +12,7 @@ const MOCK_DATA: TeamMember[] = Array.from({ length: 50 }).map((_, i) => ({
   id: `id-${i}`,
   name: `Employee ${i + 1}`,
   role: i % 3 === 0 ? 'Admin' : i % 3 === 1 ? 'Agent' : 'Creator',
-  email: `employee${i + 1}@company.com`,
+  email: `employee${i + 1}@NovaLexi.com`,
   avatar: `https://i.pravatar.cc/150?u=${i}`,
 }));
 
