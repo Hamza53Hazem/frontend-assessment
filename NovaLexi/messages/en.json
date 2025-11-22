@@ -1,0 +1,20 @@
+{
+  "TeamDirectory": {
+    "title": "Team Directory",
+    "description": "Browse and manage your team members effectively.",
+    "searchPlaceholder": "Search by name...",
+    "roleFilter": "Filter by role",
+    "allRoles": "All Roles",
+    "clear": "Clear",
+    "table": "Table",
+    "grid": "Grid",
+    "noResults": "No team members found.",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "name": "Name",
+    "role": "Role",
+    "email": "Email",
+    "avatar": "Avatar"
+  }
+}
