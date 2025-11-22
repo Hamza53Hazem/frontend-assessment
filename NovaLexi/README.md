@@ -2,16 +2,18 @@
 
 A modern, responsive Team Directory application built with Next.js 15, TypeScript, and Tailwind CSS. This project demonstrates state management, complex data handling, and internationalization best practices.
 
-## 🚀 Features
+## Features
 
 -   **Data Handling**: Mock GraphQL implementation using custom hooks with simulated network latency.
 -   **State Management**: `Zustand` for global state (filters, pagination, sorting).
 -   **UI Components**: Built with `Shadcn/UI` and `Tailwind CSS` for a clean, accessible interface.
+-   **Custom Theming**: Implemented a professional Purple/Dark theme for headers and footers.
 -   **Data Table**: `TanStack Table v8` implementation with natural sorting and custom cell rendering.
+-   **Pagination**: Full numbered pagination with "Next/Previous" controls.
 -   **Internationalization**: Full English/Arabic (RTL) support using `next-intl`.
 -   **View Modes**: Toggle between Grid and Table views.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Framework**: Next.js 15 (App Router)
 -   **Language**: TypeScript
@@ -20,12 +22,13 @@ A modern, responsive Team Directory application built with Next.js 15, TypeScrip
 -   **Table Logic**: TanStack Table v8
 -   **I18n**: next-intl
 
-## 🏃‍♂️ Getting Started
+
+##  Getting Started
 
 1.  **Clone the repository**
     ```bash
-    git clone [YOUR_REPO_URL]
-    cd team-directory
+    git clone [https://github.com/Hamza53Hazem/frontend-assessment.git](https://github.com/Hamza53Hazem/frontend-assessment.git)
+    cd frontend-assessment
     ```
 
 2.  **Install dependencies**
@@ -41,7 +44,7 @@ A modern, responsive Team Directory application built with Next.js 15, TypeScrip
 4.  **Open the application**
     Visit `http://localhost:3000` to select a language.
 
-## 🧠 Design Decisions & Tradeoffs
+## Design Decisions & Tradeoffs
 
 ### 1. State Management (Zustand)
 I chose Zustand over Redux or Context API because of its minimal boilerplate and performance. It allows us to decouple the filter logic from the UI components, making the `TeamFilters` and `TeamTable` components pure and easier to test.
@@ -57,6 +60,3 @@ Used `next-intl` with Middleware for seamless routing (`/en/...` and `/ar/...`).
 ### 4. Component Strategy
 I used a "Headless" approach for the table (TanStack) combined with a component library (Shadcn) for styling. This gives us full control over the sorting logic (e.g., natural sorting for alpha-numeric names) while maintaining a consistent design system.
 
-## ⚠️ Known Limitations
--   **Data Persistence**: Since this uses mock data, refreshing the page resets the data to the initial state. In a production app, this would connect to a real GraphQL endpoint.
--   **Images**: Using `pravatar.cc` for random avatars. Occasionally these external images may load slowly depending on the provider.
